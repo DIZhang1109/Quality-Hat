@@ -16,48 +16,22 @@
             });
         });
     </script>
-    
-    <br />
-    <br />
+        
+    <!-- Header -->
+    <div>
+        <br />
+        <h2 align="center">
+            Registration</h2>
+        <br />
+    </div>
+
+    <!-- Container -->
     <div class="container">
         <div class="row">
             <form id="signupForm" class="form-horizontal" action="" method="POST">
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-3">
                 <fieldset>
-                    <div id="Login">
-                        <legend class="">Sign In</legend>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">
-                            Username</label>
-                        <br />
-                        <div class="controls">
-                            <asp:TextBox ID="txtSignUpName" CssClass="form-control input-lg" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="form-group">
-                        <label class="control-label">
-                            Password</label>
-                        <div class="controls">
-                            <asp:TextBox ID="txtSignUpPassword" CssClass="form-control input-lg" runat="server"></asp:TextBox>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="form-group">
-                        <!-- Button -->
-                        <div class="controls">
-                            <input type="button" class="btn btn-success" value="Sign In" id="btnSignIn" name="btnSignIn"
-                                onclick="btnSignIn_OnClick()" />
-                        </div>
-                    </div>
-                </fieldset>
-            </div>
-            <div class="col-md-6">
-                <fieldset>
-                    <div id="Register">
-                        <legend class="">Register</legend>
-                    </div>
+
                     <div class="form-group">
                         <label class="control-label">
                             Username</label>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/QHSite.master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/QHSite.master" AutoEventWireup="true" CodeFile="Index.aspx.cs" Inherits="About" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitlePlaceHolder" Runat="Server">
 

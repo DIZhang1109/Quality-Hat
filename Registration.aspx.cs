@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.OleDb;
 using System.Text;
+using QHHelpers;
 
 public partial class Registration : System.Web.UI.Page
 {
@@ -64,9 +65,6 @@ public partial class Registration : System.Web.UI.Page
     /// </summary>
     protected void ClearForm()
     {
-        txtSignUpName.Text = string.Empty;
-        txtSignUpPassword.Text = string.Empty;
-
         txtSignInName.Text = string.Empty;
         txtSignInPassword.Text = string.Empty;
         txtSignInEMail.Text = string.Empty;
